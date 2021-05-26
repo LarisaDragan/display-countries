@@ -19,7 +19,7 @@ function getCountries() {
     })
 }
 
-//ccreate cards
+//create cards
 function generateCard(country) {
     return `<div class="country-card">
        <div id="image-div"><img src="${country.flag}" alt="flag" id="flag-image"></div>
