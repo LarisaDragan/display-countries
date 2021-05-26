@@ -1,0 +1,131 @@
+body {
+    background-color: aliceblue;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 55px 55px 55px;
+}
+
+h2 {
+    font-family: 'Sail', cursive;
+    font-size: 50px;
+}
+
+#search-container {
+    display: flex;
+    width: 80%;
+    margin: 15px;
+    align-items: center;
+}
+
+#search {
+    width: 100%;
+}
+
+#info-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.country-card {
+    height: 350px;
+    background-color: rgb(246, 255, 231);
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    flex: 0 0 20%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.country-card:hover {
+    background-color: rgb(174, 233, 225);
+    transition: 0.8s;
+}
+
+#image-div {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#flag-image {
+    height: 100%;
+    width: 100%;
+}
+
+#moreInfo-container {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-cards {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 10px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#readMore-div {
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+#readMore-button {
+    display: block;
+    border: 1px solid silver;
+    padding: 12px 20px;
+    border-radius: 50px;
+    color: black;
+    background-color: rgb(246, 255, 231);
+    cursor: pointer;
+}
+
+#readMore-button:hover {
+    background-color: rgb(135, 194, 186);
+    transition: 0.5s;
+    background-color: white;
+}
+
+#message-notFound {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-family: 'Sail', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+    font-size: 25px;
+}
